@@ -1,0 +1,27 @@
+{
+  "name": "provider",
+  "version": "1.0.0",
+  "description": "Pact test js provider",
+  "main": "provider.js",
+  "scripts": {
+    "test": "npm run pact:consumer"
+  },
+  "license": "Apache-2.0",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "config/**",
+      "test/**",
+      "dist/**",
+      "docs/**",
+      "examples/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nt-ca-aqe/contract-testing-js-jvm/pact-js-js"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
