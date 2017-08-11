@@ -33,11 +33,10 @@ describe('Pact Verification', () => {
       provider: 'Our Provider',
       providerBaseUrl: 'http://localhost:8081',
       providerStatesSetupUrl: 'http://localhost:8081/setup',
-      pactUrls: [path.resolve(process.cwd(), './pacts/our_little_consumer-our_provider.json')],
+      pactBrokerUrl: 'http://localhost:80',
       tags: ['prod'],
-      //pactBrokerUrl: 'https://test.pact.dius.com.au/',
-      //pactBrokerUsername: 'dXfltyFMgNOFZAxr8io9wJ37iUpY42M',
-      //pactBrokerPassword: 'O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1',
+      pactBrokerUsername: 'pact',
+      pactBrokerPassword: 'broker',
       publishVerificationResult: false,
       providerVersion: '1.0.0'
     }
