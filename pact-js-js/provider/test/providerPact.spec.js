@@ -37,7 +37,7 @@ describe('Pact Verification', () => {
       tags: ['prod'],
       pactBrokerUsername: 'pact',
       pactBrokerPassword: 'broker',
-      publishVerificationResult: false,
+      publishVerificationResult: true,
       providerVersion: '1.0.0'
     }
 
